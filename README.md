@@ -17,10 +17,10 @@
 Для того, щоб користувач зміг отримати статистику по статусам відправлених повідомлень, було відповідно сторено SET для кожного статусу, в яких зберігаються усі повідомлення в системі відповідно до їх статусу. Також щоб зберігати відправлені користувачем повідомлення був також створений SET. Щоби групувати, використуоються операції об'єднання множин статусів, які були обрані для того щоб їх переглянти, а потім робиться перетин утвореної множини з множиною відправлених повідомлень. Це і дає змогу швидко порахувати відповідну кількість.
 
 ## Example of work
-![Auth 1](../images/auth.jpg)
-![Auth 2](../images/auth2.jpg)
-![In Queue Status](../images/in_queue_status.jpg)
-![Delivered status](../images/delivered_status.jpg)
+![Auth 1](./images/auth.jpg)
+![Auth 2](./images/auth2.jpg)
+![In Queue Status](./images/in_queue_status.jpg)
+![Delivered status](./images/delivered_status.jpg)
 
 ## Admin form 
-![Admin gif](../images/admin.gif)
+![Admin gif](./images/admin.gif)
